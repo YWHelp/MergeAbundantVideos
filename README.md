@@ -1,2 +1,8 @@
 # MergeAbundantVideos
 将多个视频合并成一个视频输出
+介绍一下常用到的几个AVFoundation下得类：
+AVURLAsset：AVAsset的子类，此类主要用于获取多媒体的信息，包括视频、音频的类型、时长、每秒帧数，其实还可以用来获取视频的指定位置的缩略图。
+AVMutableCompositionTrack：视频和音频的采集都需要通过这个类，我觉得可以理解为采集的一个视频或音频资源对应一个track对象。
+AVMutableComposition：这个类点进去你会发现其实它也是AVAsset的子类，对应有一个方法[AVMutableComposition composition]，返回一个nil的AVMutableComposition对象。
+CMTime：这个时间并不是平时我们说到的分秒的时间，后面用到的时候会再说。
+AVAssetExportSession：用于合并你采集的视频和音频，最终会保存为一个新文件，可以设置文件的输出类型、路径，以及合并的一个状态AVAssetExportSessionStatus。

@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40CC1F381EB080BC0020CA76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CC1F371EB080BC0020CA76 /* main.m */; };
+		40CC1F3B1EB080BC0020CA76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CC1F3A1EB080BC0020CA76 /* AppDelegate.m */; };
+		40CC1F3E1EB080BC0020CA76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CC1F3D1EB080BC0020CA76 /* ViewController.m */; };
+		40CC1F411EB080BC0020CA76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40CC1F3F1EB080BC0020CA76 /* Main.storyboard */; };
+		40CC1F431EB080BC0020CA76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40CC1F421EB080BC0020CA76 /* Assets.xcassets */; };
+		40CC1F461EB080BC0020CA76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40CC1F441EB080BC0020CA76 /* LaunchScreen.storyboard */; };
+		40CC1F4F1EB0835E0020CA76 /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CC1F4E1EB0835E0020CA76 /* PlayViewController.m */; };
+		40CC1F521EB083900020CA76 /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 40CC1F501EB083900020CA76 /* video1.mp4 */; };
+		40CC1F531EB083900020CA76 /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 40CC1F511EB083900020CA76 /* video2.mp4 */; };
+		8EF9045D6086F3DFED1E6268 /* libPods-MergeAbundantVideos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7DEE52AF287228C6A4F3A7F /* libPods-MergeAbundantVideos.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		40CC1F331EB080BC0020CA76 /* MergeAbundantVideos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MergeAbundantVideos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40CC1F371EB080BC0020CA76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40CC1F391EB080BC0020CA76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		40CC1F3A1EB080BC0020CA76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		40CC1F3C1EB080BC0020CA76 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		40CC1F3D1EB080BC0020CA76 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		40CC1F401EB080BC0020CA76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40CC1F421EB080BC0020CA76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40CC1F451EB080BC0020CA76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40CC1F471EB080BC0020CA76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40CC1F4D1EB0835E0020CA76 /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		40CC1F4E1EB0835E0020CA76 /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+		40CC1F501EB083900020CA76 /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
+		40CC1F511EB083900020CA76 /* video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video2.mp4; sourceTree = "<group>"; };
+		60BAB38BFC4D94E2D884810C /* Pods-MergeAbundantVideos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MergeAbundantVideos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MergeAbundantVideos/Pods-MergeAbundantVideos.debug.xcconfig"; sourceTree = "<group>"; };
+		B7DEE52AF287228C6A4F3A7F /* libPods-MergeAbundantVideos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MergeAbundantVideos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEF3D8C7FCF5A72BEA2B9B0D /* Pods-MergeAbundantVideos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MergeAbundantVideos.release.xcconfig"; path = "Pods/Target Support Files/Pods-MergeAbundantVideos/Pods-MergeAbundantVideos.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40CC1F301EB080BC0020CA76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF9045D6086F3DFED1E6268 /* libPods-MergeAbundantVideos.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40CC1F2A1EB080BC0020CA76 = {
+			isa = PBXGroup;
+			children = (
+				40CC1F351EB080BC0020CA76 /* MergeAbundantVideos */,
+				40CC1F341EB080BC0020CA76 /* Products */,
+				B8288E9A736BEB7FD5A7D35B /* Pods */,
+				6EB24D2784A9EACF8E463329 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		40CC1F341EB080BC0020CA76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40CC1F331EB080BC0020CA76 /* MergeAbundantVideos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40CC1F351EB080BC0020CA76 /* MergeAbundantVideos */ = {
+			isa = PBXGroup;
+			children = (
+				40CC1F501EB083900020CA76 /* video1.mp4 */,
+				40CC1F511EB083900020CA76 /* video2.mp4 */,
+				40CC1F391EB080BC0020CA76 /* AppDelegate.h */,
+				40CC1F3A1EB080BC0020CA76 /* AppDelegate.m */,
+				40CC1F3C1EB080BC0020CA76 /* ViewController.h */,
+				40CC1F3D1EB080BC0020CA76 /* ViewController.m */,
+				40CC1F4D1EB0835E0020CA76 /* PlayViewController.h */,
+				40CC1F4E1EB0835E0020CA76 /* PlayViewController.m */,
+				40CC1F3F1EB080BC0020CA76 /* Main.storyboard */,
+				40CC1F421EB080BC0020CA76 /* Assets.xcassets */,
+				40CC1F441EB080BC0020CA76 /* LaunchScreen.storyboard */,
+				40CC1F471EB080BC0020CA76 /* Info.plist */,
+				40CC1F361EB080BC0020CA76 /* Supporting Files */,
+			);
+			path = MergeAbundantVideos;
+			sourceTree = "<group>";
+		};
+		40CC1F361EB080BC0020CA76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40CC1F371EB080BC0020CA76 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6EB24D2784A9EACF8E463329 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7DEE52AF287228C6A4F3A7F /* libPods-MergeAbundantVideos.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8288E9A736BEB7FD5A7D35B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60BAB38BFC4D94E2D884810C /* Pods-MergeAbundantVideos.debug.xcconfig */,
+				FEF3D8C7FCF5A72BEA2B9B0D /* Pods-MergeAbundantVideos.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40CC1F321EB080BC0020CA76 /* MergeAbundantVideos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40CC1F4A1EB080BC0020CA76 /* Build configuration list for PBXNativeTarget "MergeAbundantVideos" */;
+			buildPhases = (
+				EC545B3136404683C9A970D1 /* [CP] Check Pods Manifest.lock */,
+				40CC1F2F1EB080BC0020CA76 /* Sources */,
+				40CC1F301EB080BC0020CA76 /* Frameworks */,
+				40CC1F311EB080BC0020CA76 /* Resources */,
+				DB0A320767EE32B92A6A5F34 /* [CP] Embed Pods Frameworks */,
+				5AC45384B6FE172293E2C8A8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MergeAbundantVideos;
+			productName = MergeAbundantVideos;
+			productReference = 40CC1F331EB080BC0020CA76 /* MergeAbundantVideos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40CC1F2B1EB080BC0020CA76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = changcai;
+				TargetAttributes = {
+					40CC1F321EB080BC0020CA76 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ST585KS23M;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 40CC1F2E1EB080BC0020CA76 /* Build configuration list for PBXProject "MergeAbundantVideos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40CC1F2A1EB080BC0020CA76;
+			productRefGroup = 40CC1F341EB080BC0020CA76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40CC1F321EB080BC0020CA76 /* MergeAbundantVideos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40CC1F311EB080BC0020CA76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40CC1F461EB080BC0020CA76 /* LaunchScreen.storyboard in Resources */,
+				40CC1F521EB083900020CA76 /* video1.mp4 in Resources */,
+				40CC1F431EB080BC0020CA76 /* Assets.xcassets in Resources */,
+				40CC1F531EB083900020CA76 /* video2.mp4 in Resources */,
+				40CC1F411EB080BC0020CA76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AC45384B6FE172293E2C8A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MergeAbundantVideos/Pods-MergeAbundantVideos-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB0A320767EE32B92A6A5F34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MergeAbundantVideos/Pods-MergeAbundantVideos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC545B3136404683C9A970D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40CC1F2F1EB080BC0020CA76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40CC1F4F1EB0835E0020CA76 /* PlayViewController.m in Sources */,
+				40CC1F3E1EB080BC0020CA76 /* ViewController.m in Sources */,
+				40CC1F3B1EB080BC0020CA76 /* AppDelegate.m in Sources */,
+				40CC1F381EB080BC0020CA76 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		40CC1F3F1EB080BC0020CA76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40CC1F401EB080BC0020CA76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40CC1F441EB080BC0020CA76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40CC1F451EB080BC0020CA76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40CC1F481EB080BC0020CA76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40CC1F491EB080BC0020CA76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40CC1F4B1EB080BC0020CA76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60BAB38BFC4D94E2D884810C /* Pods-MergeAbundantVideos.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ST585KS23M;
+				INFOPLIST_FILE = MergeAbundantVideos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangyawei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		40CC1F4C1EB080BC0020CA76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEF3D8C7FCF5A72BEA2B9B0D /* Pods-MergeAbundantVideos.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ST585KS23M;
+				INFOPLIST_FILE = MergeAbundantVideos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangyawei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40CC1F2E1EB080BC0020CA76 /* Build configuration list for PBXProject "MergeAbundantVideos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40CC1F481EB080BC0020CA76 /* Debug */,
+				40CC1F491EB080BC0020CA76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40CC1F4A1EB080BC0020CA76 /* Build configuration list for PBXNativeTarget "MergeAbundantVideos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40CC1F4B1EB080BC0020CA76 /* Debug */,
+				40CC1F4C1EB080BC0020CA76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40CC1F2B1EB080BC0020CA76 /* Project object */;
+}
